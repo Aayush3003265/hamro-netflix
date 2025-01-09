@@ -52,7 +52,7 @@ const tempWatchedData = [
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
-const OMDB_API_KEY = '589afbe';
+const OMDB_API_KEY = '';
 
 export default function App() {
   const [query, setQuery] = useState('');
