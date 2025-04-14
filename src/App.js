@@ -52,7 +52,7 @@ const tempWatchedData = [
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
-const OMDB_API_KEY = '';
+const OMDB_API_KEY = '9c1af168'
 
 export default function App() {
   const [query, setQuery] = useState('');
@@ -120,8 +120,6 @@ export default function App() {
   function handleCloseMovieDetail(e) {
     setSelectedMovieId(null);
   }
-
-
 
   function onAddMovie(movieDetailObj) {
     setWatched((watched) => [...watched, movieDetailObj]);

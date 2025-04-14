@@ -7,6 +7,7 @@ RatingStar.propTypes = {
     size: PropTypes.number,
 }
 
+
 export default function RatingStar({ color = '#fcc419', size = 24, MaxRating = 10, setMovieRating }) {
     const [temprating, setTempRating] = useState(0)
     const [rating, setRating] = useState(0)
